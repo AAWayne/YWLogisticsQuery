@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050164ABACF8D3075184C861 /* libPods-YWLogisticsQueryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD01BBD09019AD33ADE5F175 /* libPods-YWLogisticsQueryDemo.a */; };
+		36ECEC51202E896700E563FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC50202E896700E563FF /* AppDelegate.m */; };
+		36ECEC54202E896700E563FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC53202E896700E563FF /* ViewController.m */; };
+		36ECEC57202E896700E563FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36ECEC55202E896700E563FF /* Main.storyboard */; };
+		36ECEC59202E896700E563FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36ECEC58202E896700E563FF /* Assets.xcassets */; };
+		36ECEC5C202E896700E563FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36ECEC5A202E896700E563FF /* LaunchScreen.storyboard */; };
+		36ECEC5F202E896700E563FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC5E202E896700E563FF /* main.m */; };
+		36ECEC71202E89B600E563FF /* YWLogisticCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC68202E89B500E563FF /* YWLogisticCell.m */; };
+		36ECEC72202E89B600E563FF /* YWLogisticModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC6A202E89B500E563FF /* YWLogisticModel.m */; };
+		36ECEC73202E89B600E563FF /* YWLogisticsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC6C202E89B500E563FF /* YWLogisticsView.m */; };
+		36ECEC74202E89B600E563FF /* YWTableCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC6E202E89B500E563FF /* YWTableCellContentView.m */; };
+		36ECEC75202E89B600E563FF /* YWTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC70202E89B500E563FF /* YWTableHeaderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36ECEC4C202E896700E563FF /* YWLogisticsQueryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWLogisticsQueryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36ECEC4F202E896700E563FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36ECEC50202E896700E563FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36ECEC52202E896700E563FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36ECEC53202E896700E563FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36ECEC56202E896700E563FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36ECEC58202E896700E563FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36ECEC5B202E896700E563FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36ECEC5D202E896700E563FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36ECEC5E202E896700E563FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36ECEC66202E89B500E563FF /* YWConfigFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWConfigFile.h; sourceTree = "<group>"; };
+		36ECEC67202E89B500E563FF /* YWLogisticCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLogisticCell.h; sourceTree = "<group>"; };
+		36ECEC68202E89B500E563FF /* YWLogisticCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticCell.m; sourceTree = "<group>"; };
+		36ECEC69202E89B500E563FF /* YWLogisticModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLogisticModel.h; sourceTree = "<group>"; };
+		36ECEC6A202E89B500E563FF /* YWLogisticModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticModel.m; sourceTree = "<group>"; };
+		36ECEC6B202E89B500E563FF /* YWLogisticsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLogisticsView.h; sourceTree = "<group>"; };
+		36ECEC6C202E89B500E563FF /* YWLogisticsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticsView.m; sourceTree = "<group>"; };
+		36ECEC6D202E89B500E563FF /* YWTableCellContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWTableCellContentView.h; sourceTree = "<group>"; };
+		36ECEC6E202E89B500E563FF /* YWTableCellContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWTableCellContentView.m; sourceTree = "<group>"; };
+		36ECEC6F202E89B500E563FF /* YWTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWTableHeaderView.h; sourceTree = "<group>"; };
+		36ECEC70202E89B500E563FF /* YWTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWTableHeaderView.m; sourceTree = "<group>"; };
+		437A2E505D303271605C1B1F /* Pods-YWLogisticsQueryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWLogisticsQueryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YWLogisticsQueryDemo/Pods-YWLogisticsQueryDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4E87A975947FF518A1AD72AC /* Pods-YWLogisticsQueryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWLogisticsQueryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YWLogisticsQueryDemo/Pods-YWLogisticsQueryDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FD01BBD09019AD33ADE5F175 /* libPods-YWLogisticsQueryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YWLogisticsQueryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36ECEC49202E896700E563FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050164ABACF8D3075184C861 /* libPods-YWLogisticsQueryDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36ECEC43202E896700E563FF = {
+			isa = PBXGroup;
+			children = (
+				36ECEC65202E89B500E563FF /* YWLogisticsQuery */,
+				36ECEC4E202E896700E563FF /* YWLogisticsQueryDemo */,
+				36ECEC4D202E896700E563FF /* Products */,
+				A55C5D763CA28376E964E829 /* Pods */,
+				5D68AC2CAB98E857D798C1D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36ECEC4D202E896700E563FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36ECEC4C202E896700E563FF /* YWLogisticsQueryDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36ECEC4E202E896700E563FF /* YWLogisticsQueryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				36ECEC4F202E896700E563FF /* AppDelegate.h */,
+				36ECEC50202E896700E563FF /* AppDelegate.m */,
+				36ECEC52202E896700E563FF /* ViewController.h */,
+				36ECEC53202E896700E563FF /* ViewController.m */,
+				36ECEC55202E896700E563FF /* Main.storyboard */,
+				36ECEC58202E896700E563FF /* Assets.xcassets */,
+				36ECEC5A202E896700E563FF /* LaunchScreen.storyboard */,
+				36ECEC5D202E896700E563FF /* Info.plist */,
+				36ECEC5E202E896700E563FF /* main.m */,
+			);
+			path = YWLogisticsQueryDemo;
+			sourceTree = "<group>";
+		};
+		36ECEC65202E89B500E563FF /* YWLogisticsQuery */ = {
+			isa = PBXGroup;
+			children = (
+				36ECEC66202E89B500E563FF /* YWConfigFile.h */,
+				36ECEC67202E89B500E563FF /* YWLogisticCell.h */,
+				36ECEC68202E89B500E563FF /* YWLogisticCell.m */,
+				36ECEC69202E89B500E563FF /* YWLogisticModel.h */,
+				36ECEC6A202E89B500E563FF /* YWLogisticModel.m */,
+				36ECEC6B202E89B500E563FF /* YWLogisticsView.h */,
+				36ECEC6C202E89B500E563FF /* YWLogisticsView.m */,
+				36ECEC6D202E89B500E563FF /* YWTableCellContentView.h */,
+				36ECEC6E202E89B500E563FF /* YWTableCellContentView.m */,
+				36ECEC6F202E89B500E563FF /* YWTableHeaderView.h */,
+				36ECEC70202E89B500E563FF /* YWTableHeaderView.m */,
+			);
+			path = YWLogisticsQuery;
+			sourceTree = "<group>";
+		};
+		5D68AC2CAB98E857D798C1D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD01BBD09019AD33ADE5F175 /* libPods-YWLogisticsQueryDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A55C5D763CA28376E964E829 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				437A2E505D303271605C1B1F /* Pods-YWLogisticsQueryDemo.debug.xcconfig */,
+				4E87A975947FF518A1AD72AC /* Pods-YWLogisticsQueryDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36ECEC4B202E896700E563FF /* YWLogisticsQueryDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36ECEC62202E896700E563FF /* Build configuration list for PBXNativeTarget "YWLogisticsQueryDemo" */;
+			buildPhases = (
+				9967DCE6FB55722BC893F05E /* [CP] Check Pods Manifest.lock */,
+				36ECEC48202E896700E563FF /* Sources */,
+				36ECEC49202E896700E563FF /* Frameworks */,
+				36ECEC4A202E896700E563FF /* Resources */,
+				9D4EED14F8D8A1BD3359A93B /* [CP] Embed Pods Frameworks */,
+				6DD7F9B97506C618CB62B952 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YWLogisticsQueryDemo;
+			productName = YWLogisticsQueryDemo;
+			productReference = 36ECEC4C202E896700E563FF /* YWLogisticsQueryDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36ECEC44202E896700E563FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.scsskc;
+				TargetAttributes = {
+					36ECEC4B202E896700E563FF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 36ECEC47202E896700E563FF /* Build configuration list for PBXProject "YWLogisticsQueryDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36ECEC43202E896700E563FF;
+			productRefGroup = 36ECEC4D202E896700E563FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36ECEC4B202E896700E563FF /* YWLogisticsQueryDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36ECEC4A202E896700E563FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36ECEC5C202E896700E563FF /* LaunchScreen.storyboard in Resources */,
+				36ECEC59202E896700E563FF /* Assets.xcassets in Resources */,
+				36ECEC57202E896700E563FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DD7F9B97506C618CB62B952 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YWLogisticsQueryDemo/Pods-YWLogisticsQueryDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9967DCE6FB55722BC893F05E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YWLogisticsQueryDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D4EED14F8D8A1BD3359A93B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YWLogisticsQueryDemo/Pods-YWLogisticsQueryDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36ECEC48202E896700E563FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36ECEC74202E89B600E563FF /* YWTableCellContentView.m in Sources */,
+				36ECEC54202E896700E563FF /* ViewController.m in Sources */,
+				36ECEC75202E89B600E563FF /* YWTableHeaderView.m in Sources */,
+				36ECEC71202E89B600E563FF /* YWLogisticCell.m in Sources */,
+				36ECEC73202E89B600E563FF /* YWLogisticsView.m in Sources */,
+				36ECEC5F202E896700E563FF /* main.m in Sources */,
+				36ECEC51202E896700E563FF /* AppDelegate.m in Sources */,
+				36ECEC72202E89B600E563FF /* YWLogisticModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36ECEC55202E896700E563FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36ECEC56202E896700E563FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36ECEC5A202E896700E563FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36ECEC5B202E896700E563FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36ECEC60202E896700E563FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36ECEC61202E896700E563FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36ECEC63202E896700E563FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 437A2E505D303271605C1B1F /* Pods-YWLogisticsQueryDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFYZ23A52S;
+				INFOPLIST_FILE = YWLogisticsQueryDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Candy.YWLogisticsQueryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36ECEC64202E896700E563FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E87A975947FF518A1AD72AC /* Pods-YWLogisticsQueryDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFYZ23A52S;
+				INFOPLIST_FILE = YWLogisticsQueryDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Candy.YWLogisticsQueryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36ECEC47202E896700E563FF /* Build configuration list for PBXProject "YWLogisticsQueryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36ECEC60202E896700E563FF /* Debug */,
+				36ECEC61202E896700E563FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36ECEC62202E896700E563FF /* Build configuration list for PBXNativeTarget "YWLogisticsQueryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36ECEC63202E896700E563FF /* Debug */,
+				36ECEC64202E896700E563FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36ECEC44202E896700E563FF /* Project object */;
+}

@@ -29,4 +29,7 @@ static CGFloat Gap = 10;
 static CGFloat YW_leftSpace = 50.0;
 static CGFloat YW_rightSpace = 10.0;
 
+#import "UIImageView+WebCache.h"
+#import "Masonry.h"
+
 #endif /* YWConfigFile_h */

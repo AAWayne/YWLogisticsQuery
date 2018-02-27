@@ -13,10 +13,11 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/90candy/YWLogisticsQuery.git", :tag => s.version }
   s.source_files  = "YWLogisticsQuery/**/*.{h,m}"
+  s.resources     = "YWLogisticsQuery/Resources/*.png"
   s.requires_arc  = true
   s.dependency "Masonry", "~> 1.1.0"
   s.dependency "SDWebImage", "~> 4.3.0"
-  s.resources     = "YWLogisticsQuery/Resources/*.png"
+  
 
   
  # pod trunk push YWLogisticsQuery.podspec  --allow-warnings

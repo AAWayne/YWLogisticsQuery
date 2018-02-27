@@ -9,8 +9,7 @@
 #import "YWLogisticsView.h"
 #import "YWConfigFile.h"
 #import "YWLogisticCell.h"
-#import "UIImageView+WebCache.h"
-#import "Masonry.h"
+
 
 @interface YWLogisticsView () <UITableViewDelegate,UITableViewDataSource>
 

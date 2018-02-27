@@ -1,0 +1,13 @@
+//
+//  YWLogisticHeaderModel.m
+//  YWLogisticsQueryDemo
+//
+//  Created by Candy on 2018/2/27.
+//  Copyright © 2018年 com.scsskc. All rights reserved.
+//
+
+#import "YWLogisticHeaderModel.h"
+
+@implementation YWLogisticHeaderModel
+
+@end

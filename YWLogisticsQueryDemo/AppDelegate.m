@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //设置全局状态栏字体颜色为白色
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    
+    // 直接设置导航控制器
+    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    navVC.navigationBar.barTintColor = [UIColor orangeColor];
+    navVC.navigationBar.tintColor = [UIColor whiteColor];
+    [navVC.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = navVC;
+    
     return YES;
 }
 

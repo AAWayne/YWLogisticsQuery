@@ -15,6 +15,7 @@
 
 @property (strong, nonatomic)NSMutableArray *dataArray;
 @property (strong, nonatomic)UITableView *table;
+
 @end
 
 @implementation YWLogisticsView
@@ -51,24 +52,20 @@
     [self.table reloadData];
 }
 
-- (void)setFilrUrl:(NSString *)filrUrl {
-    _filrUrl = filrUrl;
-}
-
-- (void)setExpressDic:(NSDictionary *)expressDic {
-    _expressDic = expressDic;
-    self.header = [[YWTableHeaderView alloc] initWithFrame:CGRectMake(0, 0, YWScreenWidth, 90)];;
-    self.header.type.text = @"运输中";
+- (void)setHeaderModel:(YWLogisticHeaderModel *)headerModel {
+    _headerModel = headerModel;
+    YWTableHeaderView *header = [[YWTableHeaderView alloc] initWithFrame:CGRectMake(0, 0, YWScreenWidth, 90)];;
+    header.type.text = @"运输中";
     YWLogisticModel *model = self.dataArray.firstObject;
     if ([model.dsc containsString:@"已签收"]) {
         NSLog(@"快递信息中 包含 已签收 字样");
-        self.header.type.text = @"已签收";
+        header.type.text = @"已签收";
     }
-    self.header.number = _expressDic[@"order_express_number"];
-    self.header.company = _expressDic[@"order_express_name"];
-    [self.header.goodsPic sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@", self.filrUrl, _expressDic[@"order_image"]]] placeholderImage:PLACEHOlDER_IMAGE];
+    header.number = _headerModel.logisticNumber;
+    header.company = _headerModel.logisticCompany;
+    [header.goodsPic sd_setImageWithURL:[NSURL URLWithString:_headerModel.goodsPicUrlStr] placeholderImage:PLACEHOlDER_IMAGE];
     
-    self.table.tableHeaderView = self.header;
+    self.table.tableHeaderView = header;
 }
 
 - (void)reloadDataWithDatas:(NSArray *)array {
@@ -136,6 +133,10 @@
     YWLogisticModel *model = [self.dataArray objectAtIndex:indexPath.row];
     
     return model.height;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 90;
 }
 
 @end

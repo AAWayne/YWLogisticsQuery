@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		050164ABACF8D3075184C861 /* libPods-YWLogisticsQueryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD01BBD09019AD33ADE5F175 /* libPods-YWLogisticsQueryDemo.a */; };
+		36041C2D2044F05800D6A8D7 /* YWLogisticHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36041C2C2044F05800D6A8D7 /* YWLogisticHeaderModel.m */; };
+		36041C302044F35C00D6A8D7 /* icon_imageLoadError.png in Resources */ = {isa = PBXBuildFile; fileRef = 36041C2F2044F35C00D6A8D7 /* icon_imageLoadError.png */; };
+		36041C332044FFFB00D6A8D7 /* LogisticsQueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36041C322044FFFB00D6A8D7 /* LogisticsQueryViewController.m */; };
+		36041C3B204530C400D6A8D7 /* NSArray+ ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 36041C35204530C400D6A8D7 /* NSArray+ ZXPUnicode.m */; };
+		36041C3C204530C400D6A8D7 /* NSDictionary+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 36041C38204530C400D6A8D7 /* NSDictionary+ZXPUnicode.m */; };
+		36041C3D204530C400D6A8D7 /* NSObject+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 36041C3A204530C400D6A8D7 /* NSObject+ZXPUnicode.m */; };
 		36ECEC51202E896700E563FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC50202E896700E563FF /* AppDelegate.m */; };
 		36ECEC54202E896700E563FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC53202E896700E563FF /* ViewController.m */; };
 		36ECEC57202E896700E563FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36ECEC55202E896700E563FF /* Main.storyboard */; };
@@ -22,6 +28,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36041C2B2044F05800D6A8D7 /* YWLogisticHeaderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWLogisticHeaderModel.h; sourceTree = "<group>"; };
+		36041C2C2044F05800D6A8D7 /* YWLogisticHeaderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWLogisticHeaderModel.m; sourceTree = "<group>"; };
+		36041C2F2044F35C00D6A8D7 /* icon_imageLoadError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_imageLoadError.png; sourceTree = "<group>"; };
+		36041C312044FFFB00D6A8D7 /* LogisticsQueryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogisticsQueryViewController.h; sourceTree = "<group>"; };
+		36041C322044FFFB00D6A8D7 /* LogisticsQueryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogisticsQueryViewController.m; sourceTree = "<group>"; };
+		36041C35204530C400D6A8D7 /* NSArray+ ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ ZXPUnicode.m"; sourceTree = "<group>"; };
+		36041C36204530C400D6A8D7 /* NSArray+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZXPUnicode.h"; sourceTree = "<group>"; };
+		36041C37204530C400D6A8D7 /* NSDictionary+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZXPUnicode.h"; sourceTree = "<group>"; };
+		36041C38204530C400D6A8D7 /* NSDictionary+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZXPUnicode.m"; sourceTree = "<group>"; };
+		36041C39204530C400D6A8D7 /* NSObject+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZXPUnicode.h"; sourceTree = "<group>"; };
+		36041C3A204530C400D6A8D7 /* NSObject+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZXPUnicode.m"; sourceTree = "<group>"; };
 		36ECEC4C202E896700E563FF /* YWLogisticsQueryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWLogisticsQueryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36ECEC4F202E896700E563FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		36ECEC50202E896700E563FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,9 +77,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36041C2E2044F34000D6A8D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				36041C2F2044F35C00D6A8D7 /* icon_imageLoadError.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		36041C34204530C400D6A8D7 /* ConsoleLogChinese */ = {
+			isa = PBXGroup;
+			children = (
+				36041C35204530C400D6A8D7 /* NSArray+ ZXPUnicode.m */,
+				36041C36204530C400D6A8D7 /* NSArray+ZXPUnicode.h */,
+				36041C37204530C400D6A8D7 /* NSDictionary+ZXPUnicode.h */,
+				36041C38204530C400D6A8D7 /* NSDictionary+ZXPUnicode.m */,
+				36041C39204530C400D6A8D7 /* NSObject+ZXPUnicode.h */,
+				36041C3A204530C400D6A8D7 /* NSObject+ZXPUnicode.m */,
+			);
+			path = ConsoleLogChinese;
+			sourceTree = "<group>";
+		};
 		36ECEC43202E896700E563FF = {
 			isa = PBXGroup;
 			children = (
+				36041C34204530C400D6A8D7 /* ConsoleLogChinese */,
 				36ECEC65202E89B500E563FF /* YWLogisticsQuery */,
 				36ECEC4E202E896700E563FF /* YWLogisticsQueryDemo */,
 				36ECEC4D202E896700E563FF /* Products */,
@@ -86,6 +125,8 @@
 				36ECEC50202E896700E563FF /* AppDelegate.m */,
 				36ECEC52202E896700E563FF /* ViewController.h */,
 				36ECEC53202E896700E563FF /* ViewController.m */,
+				36041C312044FFFB00D6A8D7 /* LogisticsQueryViewController.h */,
+				36041C322044FFFB00D6A8D7 /* LogisticsQueryViewController.m */,
 				36ECEC55202E896700E563FF /* Main.storyboard */,
 				36ECEC58202E896700E563FF /* Assets.xcassets */,
 				36ECEC5A202E896700E563FF /* LaunchScreen.storyboard */,
@@ -103,12 +144,15 @@
 				36ECEC68202E89B500E563FF /* YWLogisticCell.m */,
 				36ECEC69202E89B500E563FF /* YWLogisticModel.h */,
 				36ECEC6A202E89B500E563FF /* YWLogisticModel.m */,
+				36041C2B2044F05800D6A8D7 /* YWLogisticHeaderModel.h */,
+				36041C2C2044F05800D6A8D7 /* YWLogisticHeaderModel.m */,
 				36ECEC6B202E89B500E563FF /* YWLogisticsView.h */,
 				36ECEC6C202E89B500E563FF /* YWLogisticsView.m */,
 				36ECEC6D202E89B500E563FF /* YWTableCellContentView.h */,
 				36ECEC6E202E89B500E563FF /* YWTableCellContentView.m */,
 				36ECEC6F202E89B500E563FF /* YWTableHeaderView.h */,
 				36ECEC70202E89B500E563FF /* YWTableHeaderView.m */,
+				36041C2E2044F34000D6A8D7 /* Resources */,
 			);
 			path = YWLogisticsQuery;
 			sourceTree = "<group>";
@@ -194,6 +238,7 @@
 				36ECEC5C202E896700E563FF /* LaunchScreen.storyboard in Resources */,
 				36ECEC59202E896700E563FF /* Assets.xcassets in Resources */,
 				36ECEC57202E896700E563FF /* Main.storyboard in Resources */,
+				36041C302044F35C00D6A8D7 /* icon_imageLoadError.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,10 +304,15 @@
 				36ECEC54202E896700E563FF /* ViewController.m in Sources */,
 				36ECEC75202E89B600E563FF /* YWTableHeaderView.m in Sources */,
 				36ECEC71202E89B600E563FF /* YWLogisticCell.m in Sources */,
+				36041C3B204530C400D6A8D7 /* NSArray+ ZXPUnicode.m in Sources */,
 				36ECEC73202E89B600E563FF /* YWLogisticsView.m in Sources */,
 				36ECEC5F202E896700E563FF /* main.m in Sources */,
+				36041C2D2044F05800D6A8D7 /* YWLogisticHeaderModel.m in Sources */,
+				36041C3D204530C400D6A8D7 /* NSObject+ZXPUnicode.m in Sources */,
+				36041C332044FFFB00D6A8D7 /* LogisticsQueryViewController.m in Sources */,
 				36ECEC51202E896700E563FF /* AppDelegate.m in Sources */,
 				36ECEC72202E89B600E563FF /* YWLogisticModel.m in Sources */,
+				36041C3C204530C400D6A8D7 /* NSDictionary+ZXPUnicode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,10 +450,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RFYZ23A52S;
 				INFOPLIST_FILE = YWLogisticsQueryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Candy.YWLogisticsQueryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -415,10 +466,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RFYZ23A52S;
 				INFOPLIST_FILE = YWLogisticsQueryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Candy.YWLogisticsQueryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

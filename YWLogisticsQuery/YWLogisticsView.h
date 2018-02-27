@@ -8,13 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "YWTableHeaderView.h"
+#import "YWLogisticHeaderModel.h"
+#import "YWLogisticModel.h"
+#import "YWConfigFile.h"
+
 @interface YWLogisticsView : UIView
 
 @property (nonatomic, strong) NSArray                   * datas;
-@property (nonatomic, strong) YWTableHeaderView         * header ;
-@property (nonatomic, strong) NSDictionary              * expressDic;
-@property (nonatomic, strong) NSString                  * filrUrl;  // 文件服务器地址,如 http://www.baidu.com
 
+@property (nonatomic, strong) NSDictionary              * expressDic;
+@property (nonatomic, strong) YWLogisticHeaderModel     * headerModel;
 
 - (instancetype)initWithDatas:(NSArray*)array;
 - (void)reloadDataWithDatas:(NSArray *)array;

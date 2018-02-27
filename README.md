@@ -5,7 +5,7 @@
 
 ### 这里使用的是快递100
 
-**帮助文档：https://www.kuaidi100.com/openapi/api_post.shtml**
+**快递100API帮助文档：https://www.kuaidi100.com/openapi/api_post.shtml**
 
 **所支持的快递公司及参数说明：https://www.kuaidi100.com/download/api_kuaidi100_com(20140729).doc**
 

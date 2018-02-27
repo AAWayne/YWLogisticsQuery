@@ -9,7 +9,7 @@
 #import "YWLogisticCell.h"
 #import "YWConfigFile.h"
 #import "YWTableCellContentView.h"
-
+#import "Masonry.h"
 @interface YWLogisticCell ()
 
 @property (strong, nonatomic)YWTableCellContentView *customView;

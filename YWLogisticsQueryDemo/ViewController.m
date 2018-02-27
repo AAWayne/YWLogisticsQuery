@@ -36,7 +36,7 @@
 
 - (void)queryBtnAction {
     
-    // 这里的具体 'shentong' 等参数 来自快递100 帮助文档 - https://www.kuaidi100.com/openapi/api_post.shtml
+    // 这里的 'shentong' 等参数 来自快递100 帮助文档 - https://www.kuaidi100.com/openapi/api_post.shtml
     YWLogisticHeaderModel *headerModel = [[YWLogisticHeaderModel alloc] init];
     headerModel.logisticCode = @"shentong";
     headerModel.logisticCompany = @"申通快递";

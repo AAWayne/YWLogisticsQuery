@@ -6,9 +6,6 @@
 //  Copyright © 2017年 apple. All rights reserved.
 //
 
-//#import "UIImageView+WebCache.h"
-//#import "Masonry.h"
-
 #ifndef YWConfigFile_h
 #define YWConfigFile_h
 
@@ -22,13 +19,15 @@
 #define YWRGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
 
 //R G B A 颜色
-#define YWRGBAColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 \
-alpha:(a)]
+#define YWRGBAColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
 
 #define PLACEHOlDER_IMAGE [UIImage imageNamed:@"icon_placeholder_image"]
 
 static CGFloat Gap = 10;
 static CGFloat YW_leftSpace = 50.0;
 static CGFloat YW_rightSpace = 10.0;
+
+#import "UIImageView+WebCache.h"
+#import "Masonry.h"
 
 #endif /* YWConfigFile_h */

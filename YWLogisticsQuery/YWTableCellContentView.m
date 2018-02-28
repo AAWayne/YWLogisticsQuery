@@ -10,7 +10,6 @@
 
 #import "YWConfigFile.h"
 #import "YWLogisticCellModel.h"
-#import "Masonry.h"
 
 @interface YWTableCellContentView ()
 

@@ -9,6 +9,9 @@
 pod 'YWLogisticsQuery', '~> 1.0.0'
 ```
 
+### **************** 效果图展示 ****************
+![效果图](./效果图.png)
+
 ### 这里使用的是快递100
 
 **快递100API帮助文档：https://www.kuaidi100.com/openapi/api_post.shtml**

@@ -43,7 +43,7 @@
     model.logisticCode = @"shentong";
     model.logisticCompany = @"申通快递";
     model.logisticNumber = @"3345541356152";
-    model.goodsPicUrlStr = @"http://file.cleveriip.com:88/group1/M00/00/00/rBKtqFmNTUiAUnQGAAJBFBrF0p8127.png";
+    model.goodsPicUrlStr = @"https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3696414240,752471806&fm=58";
     
     LogisticsQueryViewController *logisticsQueryVC = [[LogisticsQueryViewController alloc] init];
     logisticsQueryVC.model = model;

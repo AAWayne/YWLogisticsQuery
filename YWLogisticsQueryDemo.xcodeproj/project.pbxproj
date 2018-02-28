@@ -7,163 +7,163 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		050164ABACF8D3075184C861 /* libPods-YWLogisticsQueryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD01BBD09019AD33ADE5F175 /* libPods-YWLogisticsQueryDemo.a */; };
-		36041C2D2044F05800D6A8D7 /* YWLogisticModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36041C2C2044F05800D6A8D7 /* YWLogisticModel.m */; };
-		36041C302044F35C00D6A8D7 /* icon_placeholder_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 36041C2F2044F35C00D6A8D7 /* icon_placeholder_image.png */; };
-		36041C332044FFFB00D6A8D7 /* LogisticsQueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36041C322044FFFB00D6A8D7 /* LogisticsQueryViewController.m */; };
-		36ECEC51202E896700E563FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC50202E896700E563FF /* AppDelegate.m */; };
-		36ECEC54202E896700E563FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC53202E896700E563FF /* ViewController.m */; };
-		36ECEC57202E896700E563FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36ECEC55202E896700E563FF /* Main.storyboard */; };
-		36ECEC59202E896700E563FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36ECEC58202E896700E563FF /* Assets.xcassets */; };
-		36ECEC5C202E896700E563FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36ECEC5A202E896700E563FF /* LaunchScreen.storyboard */; };
-		36ECEC5F202E896700E563FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC5E202E896700E563FF /* main.m */; };
-		36ECEC71202E89B600E563FF /* YWLogisticCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC68202E89B500E563FF /* YWLogisticCell.m */; };
-		36ECEC72202E89B600E563FF /* YWLogisticCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC6A202E89B500E563FF /* YWLogisticCellModel.m */; };
-		36ECEC73202E89B600E563FF /* YWLogisticsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC6C202E89B500E563FF /* YWLogisticsView.m */; };
-		36ECEC74202E89B600E563FF /* YWTableCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC6E202E89B500E563FF /* YWTableCellContentView.m */; };
-		36ECEC75202E89B600E563FF /* YWTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC70202E89B500E563FF /* YWTableHeaderView.m */; };
+		36FF8E832046759C00569ED1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF8E822046759C00569ED1 /* AppDelegate.m */; };
+		36FF8E862046759C00569ED1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF8E852046759C00569ED1 /* ViewController.m */; };
+		36FF8E892046759C00569ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FF8E872046759C00569ED1 /* Main.storyboard */; };
+		36FF8E8B2046759C00569ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FF8E8A2046759C00569ED1 /* Assets.xcassets */; };
+		36FF8E8E2046759C00569ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FF8E8C2046759C00569ED1 /* LaunchScreen.storyboard */; };
+		36FF8E912046759C00569ED1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF8E902046759C00569ED1 /* main.m */; };
+		36FF8EA7204676A400569ED1 /* icon_placeholder_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 36FF8E99204676A400569ED1 /* icon_placeholder_image.png */; };
+		36FF8EA8204676A400569ED1 /* YWLogisticCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF8E9C204676A400569ED1 /* YWLogisticCell.m */; };
+		36FF8EA9204676A400569ED1 /* YWLogisticCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF8E9E204676A400569ED1 /* YWLogisticCellModel.m */; };
+		36FF8EAA204676A400569ED1 /* YWLogisticModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF8EA0204676A400569ED1 /* YWLogisticModel.m */; };
+		36FF8EAB204676A400569ED1 /* YWLogisticsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF8EA2204676A400569ED1 /* YWLogisticsView.m */; };
+		36FF8EAC204676A400569ED1 /* YWTableCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF8EA4204676A400569ED1 /* YWTableCellContentView.m */; };
+		36FF8EAD204676A400569ED1 /* YWTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF8EA6204676A400569ED1 /* YWTableHeaderView.m */; };
+		36FF8EB02046780700569ED1 /* LogisticsQueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF8EAE2046780700569ED1 /* LogisticsQueryViewController.m */; };
+		C19B07B9EA1900126FA7CF78 /* libPods-YWLogisticsQueryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B65C3804CFFAA05930E9990F /* libPods-YWLogisticsQueryDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		36041C2B2044F05800D6A8D7 /* YWLogisticModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWLogisticModel.h; sourceTree = "<group>"; };
-		36041C2C2044F05800D6A8D7 /* YWLogisticModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWLogisticModel.m; sourceTree = "<group>"; };
-		36041C2F2044F35C00D6A8D7 /* icon_placeholder_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_placeholder_image.png; sourceTree = "<group>"; };
-		36041C312044FFFB00D6A8D7 /* LogisticsQueryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogisticsQueryViewController.h; sourceTree = "<group>"; };
-		36041C322044FFFB00D6A8D7 /* LogisticsQueryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogisticsQueryViewController.m; sourceTree = "<group>"; };
-		36ECEC4C202E896700E563FF /* YWLogisticsQueryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWLogisticsQueryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		36ECEC4F202E896700E563FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		36ECEC50202E896700E563FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		36ECEC52202E896700E563FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		36ECEC53202E896700E563FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		36ECEC56202E896700E563FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		36ECEC58202E896700E563FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		36ECEC5B202E896700E563FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		36ECEC5D202E896700E563FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		36ECEC5E202E896700E563FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		36ECEC66202E89B500E563FF /* YWConfigFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWConfigFile.h; sourceTree = "<group>"; };
-		36ECEC67202E89B500E563FF /* YWLogisticCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLogisticCell.h; sourceTree = "<group>"; };
-		36ECEC68202E89B500E563FF /* YWLogisticCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticCell.m; sourceTree = "<group>"; };
-		36ECEC69202E89B500E563FF /* YWLogisticCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLogisticCellModel.h; sourceTree = "<group>"; };
-		36ECEC6A202E89B500E563FF /* YWLogisticCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticCellModel.m; sourceTree = "<group>"; };
-		36ECEC6B202E89B500E563FF /* YWLogisticsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLogisticsView.h; sourceTree = "<group>"; };
-		36ECEC6C202E89B500E563FF /* YWLogisticsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticsView.m; sourceTree = "<group>"; };
-		36ECEC6D202E89B500E563FF /* YWTableCellContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWTableCellContentView.h; sourceTree = "<group>"; };
-		36ECEC6E202E89B500E563FF /* YWTableCellContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWTableCellContentView.m; sourceTree = "<group>"; };
-		36ECEC6F202E89B500E563FF /* YWTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWTableHeaderView.h; sourceTree = "<group>"; };
-		36ECEC70202E89B500E563FF /* YWTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWTableHeaderView.m; sourceTree = "<group>"; };
-		437A2E505D303271605C1B1F /* Pods-YWLogisticsQueryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWLogisticsQueryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YWLogisticsQueryDemo/Pods-YWLogisticsQueryDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		4E87A975947FF518A1AD72AC /* Pods-YWLogisticsQueryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWLogisticsQueryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YWLogisticsQueryDemo/Pods-YWLogisticsQueryDemo.release.xcconfig"; sourceTree = "<group>"; };
-		FD01BBD09019AD33ADE5F175 /* libPods-YWLogisticsQueryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YWLogisticsQueryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AB04EF05BB722F70BAFC7C /* Pods-YWLogisticsQueryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWLogisticsQueryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YWLogisticsQueryDemo/Pods-YWLogisticsQueryDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		36FF8E7E2046759C00569ED1 /* YWLogisticsQueryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWLogisticsQueryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FF8E812046759C00569ED1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36FF8E822046759C00569ED1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36FF8E842046759C00569ED1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36FF8E852046759C00569ED1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36FF8E882046759C00569ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36FF8E8A2046759C00569ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36FF8E8D2046759C00569ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36FF8E8F2046759C00569ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36FF8E902046759C00569ED1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36FF8E99204676A400569ED1 /* icon_placeholder_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_placeholder_image.png; sourceTree = "<group>"; };
+		36FF8E9A204676A400569ED1 /* YWConfigFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWConfigFile.h; sourceTree = "<group>"; };
+		36FF8E9B204676A400569ED1 /* YWLogisticCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLogisticCell.h; sourceTree = "<group>"; };
+		36FF8E9C204676A400569ED1 /* YWLogisticCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticCell.m; sourceTree = "<group>"; };
+		36FF8E9D204676A400569ED1 /* YWLogisticCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLogisticCellModel.h; sourceTree = "<group>"; };
+		36FF8E9E204676A400569ED1 /* YWLogisticCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticCellModel.m; sourceTree = "<group>"; };
+		36FF8E9F204676A400569ED1 /* YWLogisticModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLogisticModel.h; sourceTree = "<group>"; };
+		36FF8EA0204676A400569ED1 /* YWLogisticModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticModel.m; sourceTree = "<group>"; };
+		36FF8EA1204676A400569ED1 /* YWLogisticsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLogisticsView.h; sourceTree = "<group>"; };
+		36FF8EA2204676A400569ED1 /* YWLogisticsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticsView.m; sourceTree = "<group>"; };
+		36FF8EA3204676A400569ED1 /* YWTableCellContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWTableCellContentView.h; sourceTree = "<group>"; };
+		36FF8EA4204676A400569ED1 /* YWTableCellContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWTableCellContentView.m; sourceTree = "<group>"; };
+		36FF8EA5204676A400569ED1 /* YWTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWTableHeaderView.h; sourceTree = "<group>"; };
+		36FF8EA6204676A400569ED1 /* YWTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWTableHeaderView.m; sourceTree = "<group>"; };
+		36FF8EAE2046780700569ED1 /* LogisticsQueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogisticsQueryViewController.m; sourceTree = "<group>"; };
+		36FF8EAF2046780700569ED1 /* LogisticsQueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogisticsQueryViewController.h; sourceTree = "<group>"; };
+		814FFF310846E0B1AF73C358 /* Pods-YWLogisticsQueryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWLogisticsQueryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YWLogisticsQueryDemo/Pods-YWLogisticsQueryDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B65C3804CFFAA05930E9990F /* libPods-YWLogisticsQueryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YWLogisticsQueryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		36ECEC49202E896700E563FF /* Frameworks */ = {
+		36FF8E7B2046759C00569ED1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				050164ABACF8D3075184C861 /* libPods-YWLogisticsQueryDemo.a in Frameworks */,
+				C19B07B9EA1900126FA7CF78 /* libPods-YWLogisticsQueryDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36041C2E2044F34000D6A8D7 /* Resources */ = {
+		36FF8E752046759C00569ED1 = {
 			isa = PBXGroup;
 			children = (
-				36041C2F2044F35C00D6A8D7 /* icon_placeholder_image.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		36ECEC43202E896700E563FF = {
-			isa = PBXGroup;
-			children = (
-				36ECEC65202E89B500E563FF /* YWLogisticsQuery */,
-				36ECEC4E202E896700E563FF /* YWLogisticsQueryDemo */,
-				36ECEC4D202E896700E563FF /* Products */,
-				A55C5D763CA28376E964E829 /* Pods */,
-				5D68AC2CAB98E857D798C1D9 /* Frameworks */,
+				36FF8E97204676A400569ED1 /* YWLogisticsQuery */,
+				36FF8E802046759C00569ED1 /* YWLogisticsQueryDemo */,
+				36FF8E7F2046759C00569ED1 /* Products */,
+				49A22C2F389AAB6069494B2C /* Pods */,
+				8E8DD8E0DA658C61E54D81DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		36ECEC4D202E896700E563FF /* Products */ = {
+		36FF8E7F2046759C00569ED1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36ECEC4C202E896700E563FF /* YWLogisticsQueryDemo.app */,
+				36FF8E7E2046759C00569ED1 /* YWLogisticsQueryDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		36ECEC4E202E896700E563FF /* YWLogisticsQueryDemo */ = {
+		36FF8E802046759C00569ED1 /* YWLogisticsQueryDemo */ = {
 			isa = PBXGroup;
 			children = (
-				36ECEC4F202E896700E563FF /* AppDelegate.h */,
-				36ECEC50202E896700E563FF /* AppDelegate.m */,
-				36ECEC52202E896700E563FF /* ViewController.h */,
-				36ECEC53202E896700E563FF /* ViewController.m */,
-				36041C312044FFFB00D6A8D7 /* LogisticsQueryViewController.h */,
-				36041C322044FFFB00D6A8D7 /* LogisticsQueryViewController.m */,
-				36ECEC55202E896700E563FF /* Main.storyboard */,
-				36ECEC58202E896700E563FF /* Assets.xcassets */,
-				36ECEC5A202E896700E563FF /* LaunchScreen.storyboard */,
-				36ECEC5D202E896700E563FF /* Info.plist */,
-				36ECEC5E202E896700E563FF /* main.m */,
+				36FF8EAF2046780700569ED1 /* LogisticsQueryViewController.h */,
+				36FF8EAE2046780700569ED1 /* LogisticsQueryViewController.m */,
+				36FF8E812046759C00569ED1 /* AppDelegate.h */,
+				36FF8E822046759C00569ED1 /* AppDelegate.m */,
+				36FF8E842046759C00569ED1 /* ViewController.h */,
+				36FF8E852046759C00569ED1 /* ViewController.m */,
+				36FF8E872046759C00569ED1 /* Main.storyboard */,
+				36FF8E8A2046759C00569ED1 /* Assets.xcassets */,
+				36FF8E8C2046759C00569ED1 /* LaunchScreen.storyboard */,
+				36FF8E8F2046759C00569ED1 /* Info.plist */,
+				36FF8E902046759C00569ED1 /* main.m */,
 			);
 			path = YWLogisticsQueryDemo;
 			sourceTree = "<group>";
 		};
-		36ECEC65202E89B500E563FF /* YWLogisticsQuery */ = {
+		36FF8E97204676A400569ED1 /* YWLogisticsQuery */ = {
 			isa = PBXGroup;
 			children = (
-				36ECEC66202E89B500E563FF /* YWConfigFile.h */,
-				36ECEC67202E89B500E563FF /* YWLogisticCell.h */,
-				36ECEC68202E89B500E563FF /* YWLogisticCell.m */,
-				36ECEC69202E89B500E563FF /* YWLogisticCellModel.h */,
-				36ECEC6A202E89B500E563FF /* YWLogisticCellModel.m */,
-				36041C2B2044F05800D6A8D7 /* YWLogisticModel.h */,
-				36041C2C2044F05800D6A8D7 /* YWLogisticModel.m */,
-				36ECEC6B202E89B500E563FF /* YWLogisticsView.h */,
-				36ECEC6C202E89B500E563FF /* YWLogisticsView.m */,
-				36ECEC6D202E89B500E563FF /* YWTableCellContentView.h */,
-				36ECEC6E202E89B500E563FF /* YWTableCellContentView.m */,
-				36ECEC6F202E89B500E563FF /* YWTableHeaderView.h */,
-				36ECEC70202E89B500E563FF /* YWTableHeaderView.m */,
-				36041C2E2044F34000D6A8D7 /* Resources */,
+				36FF8E98204676A400569ED1 /* Resources */,
+				36FF8E9A204676A400569ED1 /* YWConfigFile.h */,
+				36FF8E9B204676A400569ED1 /* YWLogisticCell.h */,
+				36FF8E9C204676A400569ED1 /* YWLogisticCell.m */,
+				36FF8E9D204676A400569ED1 /* YWLogisticCellModel.h */,
+				36FF8E9E204676A400569ED1 /* YWLogisticCellModel.m */,
+				36FF8E9F204676A400569ED1 /* YWLogisticModel.h */,
+				36FF8EA0204676A400569ED1 /* YWLogisticModel.m */,
+				36FF8EA1204676A400569ED1 /* YWLogisticsView.h */,
+				36FF8EA2204676A400569ED1 /* YWLogisticsView.m */,
+				36FF8EA3204676A400569ED1 /* YWTableCellContentView.h */,
+				36FF8EA4204676A400569ED1 /* YWTableCellContentView.m */,
+				36FF8EA5204676A400569ED1 /* YWTableHeaderView.h */,
+				36FF8EA6204676A400569ED1 /* YWTableHeaderView.m */,
 			);
 			path = YWLogisticsQuery;
 			sourceTree = "<group>";
 		};
-		5D68AC2CAB98E857D798C1D9 /* Frameworks */ = {
+		36FF8E98204676A400569ED1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FD01BBD09019AD33ADE5F175 /* libPods-YWLogisticsQueryDemo.a */,
+				36FF8E99204676A400569ED1 /* icon_placeholder_image.png */,
 			);
-			name = Frameworks;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		A55C5D763CA28376E964E829 /* Pods */ = {
+		49A22C2F389AAB6069494B2C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				437A2E505D303271605C1B1F /* Pods-YWLogisticsQueryDemo.debug.xcconfig */,
-				4E87A975947FF518A1AD72AC /* Pods-YWLogisticsQueryDemo.release.xcconfig */,
+				07AB04EF05BB722F70BAFC7C /* Pods-YWLogisticsQueryDemo.debug.xcconfig */,
+				814FFF310846E0B1AF73C358 /* Pods-YWLogisticsQueryDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E8DD8E0DA658C61E54D81DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B65C3804CFFAA05930E9990F /* libPods-YWLogisticsQueryDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		36ECEC4B202E896700E563FF /* YWLogisticsQueryDemo */ = {
+		36FF8E7D2046759C00569ED1 /* YWLogisticsQueryDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36ECEC62202E896700E563FF /* Build configuration list for PBXNativeTarget "YWLogisticsQueryDemo" */;
+			buildConfigurationList = 36FF8E942046759C00569ED1 /* Build configuration list for PBXNativeTarget "YWLogisticsQueryDemo" */;
 			buildPhases = (
-				9967DCE6FB55722BC893F05E /* [CP] Check Pods Manifest.lock */,
-				36ECEC48202E896700E563FF /* Sources */,
-				36ECEC49202E896700E563FF /* Frameworks */,
-				36ECEC4A202E896700E563FF /* Resources */,
-				9D4EED14F8D8A1BD3359A93B /* [CP] Embed Pods Frameworks */,
-				6DD7F9B97506C618CB62B952 /* [CP] Copy Pods Resources */,
+				7FC1D9966FCD47BEB2C6A6F5 /* [CP] Check Pods Manifest.lock */,
+				36FF8E7A2046759C00569ED1 /* Sources */,
+				36FF8E7B2046759C00569ED1 /* Frameworks */,
+				36FF8E7C2046759C00569ED1 /* Resources */,
+				2F26B7C7E33E8C032EF3D688 /* [CP] Embed Pods Frameworks */,
+				2DCEBB3013340D3EDEF3B6AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,25 +171,25 @@
 			);
 			name = YWLogisticsQueryDemo;
 			productName = YWLogisticsQueryDemo;
-			productReference = 36ECEC4C202E896700E563FF /* YWLogisticsQueryDemo.app */;
+			productReference = 36FF8E7E2046759C00569ED1 /* YWLogisticsQueryDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		36ECEC44202E896700E563FF /* Project object */ = {
+		36FF8E762046759C00569ED1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = com.scsskc;
 				TargetAttributes = {
-					36ECEC4B202E896700E563FF = {
+					36FF8E7D2046759C00569ED1 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 36ECEC47202E896700E563FF /* Build configuration list for PBXProject "YWLogisticsQueryDemo" */;
+			buildConfigurationList = 36FF8E792046759C00569ED1 /* Build configuration list for PBXProject "YWLogisticsQueryDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -197,32 +197,32 @@
 				en,
 				Base,
 			);
-			mainGroup = 36ECEC43202E896700E563FF;
-			productRefGroup = 36ECEC4D202E896700E563FF /* Products */;
+			mainGroup = 36FF8E752046759C00569ED1;
+			productRefGroup = 36FF8E7F2046759C00569ED1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36ECEC4B202E896700E563FF /* YWLogisticsQueryDemo */,
+				36FF8E7D2046759C00569ED1 /* YWLogisticsQueryDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		36ECEC4A202E896700E563FF /* Resources */ = {
+		36FF8E7C2046759C00569ED1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36ECEC5C202E896700E563FF /* LaunchScreen.storyboard in Resources */,
-				36ECEC59202E896700E563FF /* Assets.xcassets in Resources */,
-				36ECEC57202E896700E563FF /* Main.storyboard in Resources */,
-				36041C302044F35C00D6A8D7 /* icon_placeholder_image.png in Resources */,
+				36FF8E8E2046759C00569ED1 /* LaunchScreen.storyboard in Resources */,
+				36FF8E8B2046759C00569ED1 /* Assets.xcassets in Resources */,
+				36FF8EA7204676A400569ED1 /* icon_placeholder_image.png in Resources */,
+				36FF8E892046759C00569ED1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6DD7F9B97506C618CB62B952 /* [CP] Copy Pods Resources */ = {
+		2DCEBB3013340D3EDEF3B6AA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -237,7 +237,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YWLogisticsQueryDemo/Pods-YWLogisticsQueryDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9967DCE6FB55722BC893F05E /* [CP] Check Pods Manifest.lock */ = {
+		2F26B7C7E33E8C032EF3D688 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YWLogisticsQueryDemo/Pods-YWLogisticsQueryDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FC1D9966FCD47BEB2C6A6F5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,56 +270,41 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9D4EED14F8D8A1BD3359A93B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YWLogisticsQueryDemo/Pods-YWLogisticsQueryDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		36ECEC48202E896700E563FF /* Sources */ = {
+		36FF8E7A2046759C00569ED1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36ECEC74202E89B600E563FF /* YWTableCellContentView.m in Sources */,
-				36ECEC54202E896700E563FF /* ViewController.m in Sources */,
-				36ECEC75202E89B600E563FF /* YWTableHeaderView.m in Sources */,
-				36ECEC71202E89B600E563FF /* YWLogisticCell.m in Sources */,
-				36ECEC73202E89B600E563FF /* YWLogisticsView.m in Sources */,
-				36ECEC5F202E896700E563FF /* main.m in Sources */,
-				36041C2D2044F05800D6A8D7 /* YWLogisticModel.m in Sources */,
-				36041C332044FFFB00D6A8D7 /* LogisticsQueryViewController.m in Sources */,
-				36ECEC51202E896700E563FF /* AppDelegate.m in Sources */,
-				36ECEC72202E89B600E563FF /* YWLogisticCellModel.m in Sources */,
+				36FF8EAB204676A400569ED1 /* YWLogisticsView.m in Sources */,
+				36FF8EAC204676A400569ED1 /* YWTableCellContentView.m in Sources */,
+				36FF8E862046759C00569ED1 /* ViewController.m in Sources */,
+				36FF8EA8204676A400569ED1 /* YWLogisticCell.m in Sources */,
+				36FF8E912046759C00569ED1 /* main.m in Sources */,
+				36FF8EAD204676A400569ED1 /* YWTableHeaderView.m in Sources */,
+				36FF8EAA204676A400569ED1 /* YWLogisticModel.m in Sources */,
+				36FF8EB02046780700569ED1 /* LogisticsQueryViewController.m in Sources */,
+				36FF8EA9204676A400569ED1 /* YWLogisticCellModel.m in Sources */,
+				36FF8E832046759C00569ED1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		36ECEC55202E896700E563FF /* Main.storyboard */ = {
+		36FF8E872046759C00569ED1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				36ECEC56202E896700E563FF /* Base */,
+				36FF8E882046759C00569ED1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		36ECEC5A202E896700E563FF /* LaunchScreen.storyboard */ = {
+		36FF8E8C2046759C00569ED1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				36ECEC5B202E896700E563FF /* Base */,
+				36FF8E8D2046759C00569ED1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		36ECEC60202E896700E563FF /* Debug */ = {
+		36FF8E922046759C00569ED1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -367,7 +367,7 @@
 			};
 			name = Debug;
 		};
-		36ECEC61202E896700E563FF /* Release */ = {
+		36FF8E932046759C00569ED1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -416,9 +416,9 @@
 			};
 			name = Release;
 		};
-		36ECEC63202E896700E563FF /* Debug */ = {
+		36FF8E952046759C00569ED1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 437A2E505D303271605C1B1F /* Pods-YWLogisticsQueryDemo.debug.xcconfig */;
+			baseConfigurationReference = 07AB04EF05BB722F70BAFC7C /* Pods-YWLogisticsQueryDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -428,13 +428,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Candy.YWLogisticsQueryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		36ECEC64202E896700E563FF /* Release */ = {
+		36FF8E962046759C00569ED1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E87A975947FF518A1AD72AC /* Pods-YWLogisticsQueryDemo.release.xcconfig */;
+			baseConfigurationReference = 814FFF310846E0B1AF73C358 /* Pods-YWLogisticsQueryDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -444,32 +444,32 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Candy.YWLogisticsQueryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		36ECEC47202E896700E563FF /* Build configuration list for PBXProject "YWLogisticsQueryDemo" */ = {
+		36FF8E792046759C00569ED1 /* Build configuration list for PBXProject "YWLogisticsQueryDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36ECEC60202E896700E563FF /* Debug */,
-				36ECEC61202E896700E563FF /* Release */,
+				36FF8E922046759C00569ED1 /* Debug */,
+				36FF8E932046759C00569ED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36ECEC62202E896700E563FF /* Build configuration list for PBXNativeTarget "YWLogisticsQueryDemo" */ = {
+		36FF8E942046759C00569ED1 /* Build configuration list for PBXNativeTarget "YWLogisticsQueryDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36ECEC63202E896700E563FF /* Debug */,
-				36ECEC64202E896700E563FF /* Release */,
+				36FF8E952046759C00569ED1 /* Debug */,
+				36FF8E962046759C00569ED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 36ECEC44202E896700E563FF /* Project object */;
+	rootObject = 36FF8E762046759C00569ED1 /* Project object */;
 }

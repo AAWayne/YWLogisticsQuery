@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 @interface YWLogisticCellModel : NSObject
-@property (copy, nonatomic)NSString *dsc;
-@property (copy, nonatomic)NSString *date;
+@property (copy, nonatomic) NSString *dsc;
+@property (copy, nonatomic) NSString *date;
 @property (assign, nonatomic, readonly)CGFloat height;
 @end

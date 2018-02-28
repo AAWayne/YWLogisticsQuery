@@ -20,9 +20,9 @@
     
     if (_tempHeight == 0) {
         
-        NSDictionary * dict=[NSDictionary dictionaryWithObject: [UIFont systemFontOfSize:12] forKey:NSFontAttributeName];
+        NSDictionary * dict = [NSDictionary dictionaryWithObject: [UIFont systemFontOfSize:12] forKey:NSFontAttributeName];
         
-        CGRect rect=[self.dsc boundingRectWithSize:CGSizeMake(YWScreenWidth - YW_leftSpace - 2*YW_rightSpace, CGFLOAT_MAX) options:NSStringDrawingTruncatesLastVisibleLine|NSStringDrawingUsesFontLeading|NSStringDrawingUsesLineFragmentOrigin attributes:dict context:nil];
+        CGRect rect = [self.dsc boundingRectWithSize:CGSizeMake(YWScreenWidth - YW_leftSpace - 2*YW_rightSpace, CGFLOAT_MAX) options:NSStringDrawingTruncatesLastVisibleLine|NSStringDrawingUsesFontLeading|NSStringDrawingUsesLineFragmentOrigin attributes:dict context:nil];
         
         _tempHeight = rect.size.height + 50;;
     }

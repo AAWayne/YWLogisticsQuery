@@ -25,7 +25,7 @@
 #define YWRGBAColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 \
 alpha:(a)]
 
-#define PLACEHOlDER_IMAGE [UIImage imageNamed:@"icon_imageLoadError"]
+#define PLACEHOlDER_IMAGE [UIImage imageNamed:@"icon_placeholder_image"]
 
 static CGFloat Gap = 10;
 static CGFloat YW_leftSpace = 50.0;

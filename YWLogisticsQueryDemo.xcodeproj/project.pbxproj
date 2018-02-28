@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		050164ABACF8D3075184C861 /* libPods-YWLogisticsQueryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD01BBD09019AD33ADE5F175 /* libPods-YWLogisticsQueryDemo.a */; };
 		36041C2D2044F05800D6A8D7 /* YWLogisticModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36041C2C2044F05800D6A8D7 /* YWLogisticModel.m */; };
-		36041C302044F35C00D6A8D7 /* icon_imageLoadError.png in Resources */ = {isa = PBXBuildFile; fileRef = 36041C2F2044F35C00D6A8D7 /* icon_imageLoadError.png */; };
+		36041C302044F35C00D6A8D7 /* icon_placeholder_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 36041C2F2044F35C00D6A8D7 /* icon_placeholder_image.png */; };
 		36041C332044FFFB00D6A8D7 /* LogisticsQueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36041C322044FFFB00D6A8D7 /* LogisticsQueryViewController.m */; };
 		36ECEC51202E896700E563FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC50202E896700E563FF /* AppDelegate.m */; };
 		36ECEC54202E896700E563FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECEC53202E896700E563FF /* ViewController.m */; };
@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		36041C2B2044F05800D6A8D7 /* YWLogisticModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWLogisticModel.h; sourceTree = "<group>"; };
 		36041C2C2044F05800D6A8D7 /* YWLogisticModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWLogisticModel.m; sourceTree = "<group>"; };
-		36041C2F2044F35C00D6A8D7 /* icon_imageLoadError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_imageLoadError.png; sourceTree = "<group>"; };
+		36041C2F2044F35C00D6A8D7 /* icon_placeholder_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_placeholder_image.png; sourceTree = "<group>"; };
 		36041C312044FFFB00D6A8D7 /* LogisticsQueryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogisticsQueryViewController.h; sourceTree = "<group>"; };
 		36041C322044FFFB00D6A8D7 /* LogisticsQueryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogisticsQueryViewController.m; sourceTree = "<group>"; };
 		36ECEC4C202E896700E563FF /* YWLogisticsQueryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWLogisticsQueryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,7 +71,7 @@
 		36041C2E2044F34000D6A8D7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				36041C2F2044F35C00D6A8D7 /* icon_imageLoadError.png */,
+				36041C2F2044F35C00D6A8D7 /* icon_placeholder_image.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -215,7 +215,7 @@
 				36ECEC5C202E896700E563FF /* LaunchScreen.storyboard in Resources */,
 				36ECEC59202E896700E563FF /* Assets.xcassets in Resources */,
 				36ECEC57202E896700E563FF /* Main.storyboard in Resources */,
-				36041C302044F35C00D6A8D7 /* icon_imageLoadError.png in Resources */,
+				36041C302044F35C00D6A8D7 /* icon_placeholder_image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

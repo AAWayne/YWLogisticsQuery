@@ -27,7 +27,7 @@
     return self;
 }
 
-- (void)reloadDataWithModel:(YWLogisticCellModel*)model {
+- (void)reloadDataWithModel:(YWLogisticCellModel *)model {
     
     [self.customView reloadDataWithModel:model];
 }

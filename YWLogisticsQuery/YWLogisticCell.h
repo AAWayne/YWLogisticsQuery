@@ -14,5 +14,5 @@
 @property (assign, nonatomic) BOOL hasDownLine;
 @property (assign, nonatomic) BOOL currented;
 
-- (void)reloadDataWithModel:(YWLogisticCellModel*)model;
+- (void)reloadDataWithModel:(YWLogisticCellModel *)model;
 @end

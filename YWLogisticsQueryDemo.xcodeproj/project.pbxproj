@@ -90,12 +90,12 @@
 		36FF8E802046759C00569ED1 /* YWLogisticsQueryDemo */ = {
 			isa = PBXGroup;
 			children = (
-				36FF8EAF2046780700569ED1 /* LogisticsQueryViewController.h */,
-				36FF8EAE2046780700569ED1 /* LogisticsQueryViewController.m */,
 				36FF8E812046759C00569ED1 /* AppDelegate.h */,
 				36FF8E822046759C00569ED1 /* AppDelegate.m */,
 				36FF8E842046759C00569ED1 /* ViewController.h */,
 				36FF8E852046759C00569ED1 /* ViewController.m */,
+				36FF8EAF2046780700569ED1 /* LogisticsQueryViewController.h */,
+				36FF8EAE2046780700569ED1 /* LogisticsQueryViewController.m */,
 				36FF8E872046759C00569ED1 /* Main.storyboard */,
 				36FF8E8A2046759C00569ED1 /* Assets.xcassets */,
 				36FF8E8C2046759C00569ED1 /* LaunchScreen.storyboard */,
@@ -428,7 +428,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Candy.YWLogisticsQueryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,7 +444,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Candy.YWLogisticsQueryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

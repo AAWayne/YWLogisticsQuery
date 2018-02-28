@@ -1,15 +1,18 @@
 //
 //  YWLogisticModel.h
-//  YWLogisticsInformation
+//  YWLogisticsQueryDemo
 //
-//  Created by Candy on 17/12/19.
-//  Copyright © 2017年 apple. All rights reserved.
+//  Created by Candy on 2018/2/27.
+//  Copyright © 2018年 com.scsskc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+
 @interface YWLogisticModel : NSObject
-@property (copy, nonatomic)NSString *dsc;
-@property (copy, nonatomic)NSString *date;
-@property (assign, nonatomic, readonly)CGFloat height;
+
+@property (copy, nonatomic) NSString *logisticCode;         // 物流编码（快递码，用于辨别对应的快递公司，如：shentong）
+@property (copy, nonatomic) NSString *logisticNumber;       // 物流单号（快递单号）
+@property (copy, nonatomic) NSString *logisticCompany;      // 物流公司名称
+@property (copy, nonatomic) NSString *goodsPicUrlStr;       // 物流公司Logo(也可传入对应商品图片)完整链接
+
 @end

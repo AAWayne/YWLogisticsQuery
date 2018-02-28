@@ -1,6 +1,6 @@
 //
 //  YWTableCellContentView.m
-//  YWLogisticsInformation
+//  YWLogisticsQuery
 //
 //  Created by Candy on 17/12/19.
 //  Copyright © 2017年 apple. All rights reserved.
@@ -9,7 +9,7 @@
 #import "YWTableCellContentView.h"
 
 #import "YWConfigFile.h"
-#import "YWLogisticModel.h"
+#import "YWLogisticCellModel.h"
 
 @interface YWTableCellContentView ()
 
@@ -28,7 +28,7 @@
     return self;
 }
 
-- (void)reloadDataWithModel:(YWLogisticModel*)model {
+- (void)reloadDataWithModel:(YWLogisticCellModel*)model {
     
     self.infoLabel.text = model.dsc;
     self.dateLabel.text = model.date;

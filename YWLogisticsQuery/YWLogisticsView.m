@@ -1,6 +1,6 @@
 //
 //  YWLogisticsView.m
-//  YWLogisticsInformation
+//  YWLogisticsQuery
 //
 //  Created by Candy on 17/12/19.
 //  Copyright © 2017年 apple. All rights reserved.
@@ -37,7 +37,7 @@
     return self;
 }
 
-- (instancetype)initWithDatas:(NSArray*)array {
+- (instancetype)initWithDataSource:(NSArray*)array {
     self = [super init];
     if (self) {
         [self.dataArray addObjectsFromArray:array];
@@ -45,30 +45,30 @@
     return self;
 }
 
-- (void)setDatas:(NSArray *)datas {
-    if (_datas == datas) {
-        _datas = datas;
+- (void)setDataSource:(NSArray *)dataSource {
+    if (_dataSource == dataSource) {
+        _dataSource = dataSource;
     }
     [self.table reloadData];
 }
 
-- (void)setHeaderModel:(YWLogisticHeaderModel *)headerModel {
-    _headerModel = headerModel;
+- (void)setLogisticModel:(YWLogisticModel *)logisticModel {
+    _logisticModel = logisticModel;
     YWTableHeaderView *header = [[YWTableHeaderView alloc] initWithFrame:CGRectMake(0, 0, YWScreenWidth, 90)];;
     header.type.text = @"运输中";
-    YWLogisticModel *model = self.dataArray.firstObject;
+    YWLogisticCellModel *model = self.dataArray.firstObject;
     if ([model.dsc containsString:@"已签收"]) {
         NSLog(@"快递信息中 包含 已签收 字样");
         header.type.text = @"已签收";
     }
-    header.number = _headerModel.logisticNumber;
-    header.company = _headerModel.logisticCompany;
-    [header.goodsPic sd_setImageWithURL:[NSURL URLWithString:_headerModel.goodsPicUrlStr] placeholderImage:PLACEHOlDER_IMAGE];
+    header.number = _logisticModel.logisticNumber;
+    header.company = _logisticModel.logisticCompany;
+    [header.goodsPic sd_setImageWithURL:[NSURL URLWithString:_logisticModel.goodsPicUrlStr] placeholderImage:PLACEHOlDER_IMAGE];
     
     self.table.tableHeaderView = header;
 }
 
-- (void)reloadDataWithDatas:(NSArray *)array {
+- (void)reloadDataWithDataSource:(NSArray *)array {
     
     [self.dataArray addObjectsFromArray:array];
     [self.table reloadData];
@@ -122,7 +122,7 @@
         cell.hasDownLine = YES;
     }
     
-    YWLogisticModel *model = [self.dataArray objectAtIndex:indexPath.row];
+    YWLogisticCellModel *model = [self.dataArray objectAtIndex:indexPath.row];
     
     [cell reloadDataWithModel:model];
     return cell;
@@ -130,7 +130,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    YWLogisticModel *model = [self.dataArray objectAtIndex:indexPath.row];
+    YWLogisticCellModel *model = [self.dataArray objectAtIndex:indexPath.row];
     
     return model.height;
 }

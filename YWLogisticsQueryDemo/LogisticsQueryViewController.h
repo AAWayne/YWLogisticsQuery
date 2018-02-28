@@ -11,6 +11,6 @@
 
 @interface LogisticsQueryViewController : UIViewController
 
-@property (nonatomic, strong) YWLogisticHeaderModel  * headerModel; // 这个可作为接口使用
+@property (nonatomic, strong) YWLogisticModel  * model; // 包括：物流信息（编码、单号、物流公司、商品图片或物流公司logo）
 
 @end

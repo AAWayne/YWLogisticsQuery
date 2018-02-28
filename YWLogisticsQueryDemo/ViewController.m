@@ -37,14 +37,14 @@
 - (void)queryBtnAction {
     
     // 这里的 'shentong' 等参数 来自快递100 帮助文档 - https://www.kuaidi100.com/openapi/api_post.shtml
-    YWLogisticHeaderModel *headerModel = [[YWLogisticHeaderModel alloc] init];
-    headerModel.logisticCode = @"shentong";
-    headerModel.logisticCompany = @"申通快递";
-    headerModel.logisticNumber = @"3345541356152";
-    headerModel.goodsPicUrlStr = @"http://file.cleveriip.com:88/group1/M00/00/00/rBKtqFmNTUiAUnQGAAJBFBrF0p8127.png";
+    YWLogisticModel *model = [[YWLogisticModel alloc] init];
+    model.logisticCode = @"shentong";
+    model.logisticCompany = @"申通快递";
+    model.logisticNumber = @"3345541356152";
+    model.goodsPicUrlStr = @"http://file.cleveriip.com:88/group1/M00/00/00/rBKtqFmNTUiAUnQGAAJBFBrF0p8127.png";
     
     LogisticsQueryViewController *logisticsQueryVC = [[LogisticsQueryViewController alloc] init];
-    logisticsQueryVC.headerModel = headerModel;
+    logisticsQueryVC.model = model;
     
     [self.navigationController pushViewController:logisticsQueryVC animated:YES];
 }

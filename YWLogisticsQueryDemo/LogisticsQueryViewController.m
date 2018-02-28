@@ -38,21 +38,21 @@
     
     // 快递100 帮助文档 - https://www.kuaidi100.com/openapi/api_post.shtml
     NSString *queryUrl = [NSString stringWithFormat:@"https://m.kuaidi100.com/query?type=%@&postid=%@",
-                          _headerModel.logisticCode,
-                          _headerModel.logisticNumber
+                          _model.logisticCode,
+                          _model.logisticNumber
                           ];
     
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json",@"text/json",@"text/html",@"text/javascript", @"text/plain", nil];
     manager.requestSerializer.timeoutInterval = 15.0;
-    [manager POST:queryUrl parameters:nil progress:nil/*进度指示器*/ success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    [manager POST:queryUrl parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
         NSLog(@"responseObject:\n%@", responseObject);
         if ([responseObject allKeys].count > 0) {
             if ([responseObject[@"status"] integerValue] == 200) {
                 NSArray *expressArr = responseObject[@"data"];
                 for (NSDictionary *express in expressArr) {
-                    YWLogisticModel *model = [[YWLogisticModel alloc]init];
+                    YWLogisticCellModel *model = [[YWLogisticCellModel alloc]init];
                     model.dsc = express[@"context"];
                     model.date = express[@"time"];
                     [_dataSource addObject:model];
@@ -70,9 +70,9 @@
 }
 
 - (void)initUserInterface {
-    YWLogisticsView *logis = [[YWLogisticsView alloc] initWithDatas:_dataSource];
+    YWLogisticsView *logis = [[YWLogisticsView alloc] initWithDataSource:_dataSource];
     logis.frame = CGRectMake(0, 0, YWScreenWidth, YWScreenHeight);
-    logis.headerModel = _headerModel;
+    logis.logisticModel = _model;
     [self.view addSubview:logis];
 }
 

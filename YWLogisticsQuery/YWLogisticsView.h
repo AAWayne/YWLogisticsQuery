@@ -1,25 +1,26 @@
 //
 //  YWLogisticsView.h
-//  YWLogisticsInformation
+//  YWLogisticsQuery
 //
 //  Created by Candy on 17/12/19.
 //  Copyright © 2017年 apple. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+
 #import "YWTableHeaderView.h"
-#import "YWLogisticHeaderModel.h"
-#import "YWLogisticModel.h"
+
 #import "YWConfigFile.h"
+#import "YWLogisticModel.h"
+#import "YWLogisticCellModel.h"
 
 @interface YWLogisticsView : UIView
 
-@property (nonatomic, strong) NSArray                   * datas;
+@property (nonatomic, strong) NSArray                   * dataSource;
 
-@property (nonatomic, strong) NSDictionary              * expressDic;
-@property (nonatomic, strong) YWLogisticHeaderModel     * headerModel;
+@property (nonatomic, strong) YWLogisticModel           * logisticModel;
 
-- (instancetype)initWithDatas:(NSArray*)array;
-- (void)reloadDataWithDatas:(NSArray *)array;
+- (instancetype)initWithDataSource:(NSArray*)array;
+- (void)reloadDataWithDataSource:(NSArray *)array;
 
 @end

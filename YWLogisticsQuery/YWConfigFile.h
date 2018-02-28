@@ -9,9 +9,6 @@
 #ifndef YWConfigFile_h
 #define YWConfigFile_h
 
-#import <UIImageView+WebCache.h>
-#import <Masonry.h>
-
 #define YWScreenWidth ([UIScreen mainScreen].bounds.size.width)
 #define YWScreenHeight ([UIScreen mainScreen].bounds.size.height)
 
@@ -30,5 +27,8 @@ alpha:(a)]
 static CGFloat Gap = 10;
 static CGFloat YW_leftSpace = 50.0;
 static CGFloat YW_rightSpace = 10.0;
+
+#import "UIImageView+WebCache.h"
+#import "Masonry.h"
 
 #endif /* YWConfigFile_h */

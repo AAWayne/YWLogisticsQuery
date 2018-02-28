@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   s.source_files  = "YWLogisticsQuery/**/*.{h,m}"
   s.resources     = "YWLogisticsQuery/Resources/*.png"
   s.requires_arc  = true
-  s.dependency "Masonry", "~> 1.1.0"
-  s.dependency "SDWebImage", "~> 4.3.0"
+  s.dependency "Masonry", ">= 1.1.0"
+  s.dependency "SDWebImage", ">=4.0.0"
   
 
  # 验证：pod spec lint YWLogisticsQuery.podspec --verbose

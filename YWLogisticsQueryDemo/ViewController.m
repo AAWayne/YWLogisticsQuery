@@ -20,6 +20,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.title = @"YWLogisticsQueryDemo";
+    
     // 查询最新物流信息按钮
     UIButton *queryBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     queryBtn.frame = CGRectMake(0, 0, 200, 50);

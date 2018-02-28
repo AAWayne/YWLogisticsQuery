@@ -6,6 +6,9 @@
 //  Copyright © 2017年 apple. All rights reserved.
 //
 
+#import "UIImageView+WebCache.h"
+#import "Masonry.h"
+
 #ifndef YWConfigFile_h
 #define YWConfigFile_h
 
@@ -27,8 +30,5 @@ alpha:(a)]
 static CGFloat Gap = 10;
 static CGFloat YW_leftSpace = 50.0;
 static CGFloat YW_rightSpace = 10.0;
-
-#import "UIImageView+WebCache.h"
-#import "Masonry.h"
 
 #endif /* YWConfigFile_h */

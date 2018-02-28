@@ -2,9 +2,9 @@ Pod::Spec.new do |s|
 
   s.name         = "YWLogisticsQuery"
   s.version      = "1.0.1"
-  s.summary      = "物流查询：传入快递号、对应物流公司以及对应物流公司编码"
+  s.summary      = "物流查询/快递100"
   s.description  = <<-DESC
-			物流查询：传入快递号、对应物流公司以及对应物流公司编码即可
+		     物流查询：传入快递号、对应物流公司以及对应物流公司编码即可
                    DESC
   s.homepage     = "https://github.com/90candy/YWLogisticsQuery"
   s.license      = { :type => "MIT", :file => "LICENSE" }

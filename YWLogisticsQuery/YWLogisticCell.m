@@ -1,6 +1,6 @@
 //
 //  YWLogisticCell.m
-//  YWLogisticsQuery
+//  YWLogisticsQueryDemo
 //
 //  Created by Candy on 17/12/19.
 //  Copyright © 2017年 apple. All rights reserved.

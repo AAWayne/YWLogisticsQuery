@@ -9,7 +9,6 @@
 #ifndef YWConfigFile_h
 #define YWConfigFile_h
 
-
 #define YWScreenWidth ([UIScreen mainScreen].bounds.size.width)
 #define YWScreenHeight ([UIScreen mainScreen].bounds.size.height)
 
@@ -20,8 +19,7 @@
 #define YWRGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
 
 //R G B A 颜色
-#define YWRGBAColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 \
-alpha:(a)]
+#define YWRGBAColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
 
 #define PLACEHOlDER_IMAGE [UIImage imageNamed:@"icon_placeholder_image"]
 

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "YWLogisticCellModel.h"
+
 @interface YWLogisticCell : UITableViewCell
 
 @property (assign, nonatomic) BOOL hasUpLine;

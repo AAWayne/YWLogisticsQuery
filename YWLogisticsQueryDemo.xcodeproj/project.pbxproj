@@ -13,14 +13,14 @@
 		36FF8E8B2046759C00569ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FF8E8A2046759C00569ED1 /* Assets.xcassets */; };
 		36FF8E8E2046759C00569ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FF8E8C2046759C00569ED1 /* LaunchScreen.storyboard */; };
 		36FF8E912046759C00569ED1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF8E902046759C00569ED1 /* main.m */; };
-		36FF8EA7204676A400569ED1 /* icon_placeholder_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 36FF8E99204676A400569ED1 /* icon_placeholder_image.png */; };
-		36FF8EA8204676A400569ED1 /* YWLogisticCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF8E9C204676A400569ED1 /* YWLogisticCell.m */; };
-		36FF8EA9204676A400569ED1 /* YWLogisticCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF8E9E204676A400569ED1 /* YWLogisticCellModel.m */; };
-		36FF8EAA204676A400569ED1 /* YWLogisticModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF8EA0204676A400569ED1 /* YWLogisticModel.m */; };
-		36FF8EAB204676A400569ED1 /* YWLogisticsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF8EA2204676A400569ED1 /* YWLogisticsView.m */; };
-		36FF8EAC204676A400569ED1 /* YWTableCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF8EA4204676A400569ED1 /* YWTableCellContentView.m */; };
-		36FF8EAD204676A400569ED1 /* YWTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF8EA6204676A400569ED1 /* YWTableHeaderView.m */; };
 		36FF8EB02046780700569ED1 /* LogisticsQueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF8EAE2046780700569ED1 /* LogisticsQueryViewController.m */; };
+		77C3556C204829C2006D5D0B /* YWLogisticModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C3555E204829C2006D5D0B /* YWLogisticModel.m */; };
+		77C3556D204829C2006D5D0B /* YWTableCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C3555F204829C2006D5D0B /* YWTableCellContentView.m */; };
+		77C3556E204829C2006D5D0B /* icon_placeholder_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C35562204829C2006D5D0B /* icon_placeholder_image.png */; };
+		77C3556F204829C2006D5D0B /* YWLogisticCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C35565204829C2006D5D0B /* YWLogisticCellModel.m */; };
+		77C35570204829C2006D5D0B /* YWTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C35568204829C2006D5D0B /* YWTableHeaderView.m */; };
+		77C35571204829C2006D5D0B /* YWLogisticsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C35569204829C2006D5D0B /* YWLogisticsView.m */; };
+		77C35572204829C2006D5D0B /* YWLogisticCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C3556A204829C2006D5D0B /* YWLogisticCell.m */; };
 		C19B07B9EA1900126FA7CF78 /* libPods-YWLogisticsQueryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B65C3804CFFAA05930E9990F /* libPods-YWLogisticsQueryDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -36,22 +36,22 @@
 		36FF8E8D2046759C00569ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36FF8E8F2046759C00569ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36FF8E902046759C00569ED1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		36FF8E99204676A400569ED1 /* icon_placeholder_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_placeholder_image.png; sourceTree = "<group>"; };
-		36FF8E9A204676A400569ED1 /* YWConfigFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWConfigFile.h; sourceTree = "<group>"; };
-		36FF8E9B204676A400569ED1 /* YWLogisticCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLogisticCell.h; sourceTree = "<group>"; };
-		36FF8E9C204676A400569ED1 /* YWLogisticCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticCell.m; sourceTree = "<group>"; };
-		36FF8E9D204676A400569ED1 /* YWLogisticCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLogisticCellModel.h; sourceTree = "<group>"; };
-		36FF8E9E204676A400569ED1 /* YWLogisticCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticCellModel.m; sourceTree = "<group>"; };
-		36FF8E9F204676A400569ED1 /* YWLogisticModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLogisticModel.h; sourceTree = "<group>"; };
-		36FF8EA0204676A400569ED1 /* YWLogisticModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticModel.m; sourceTree = "<group>"; };
-		36FF8EA1204676A400569ED1 /* YWLogisticsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLogisticsView.h; sourceTree = "<group>"; };
-		36FF8EA2204676A400569ED1 /* YWLogisticsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticsView.m; sourceTree = "<group>"; };
-		36FF8EA3204676A400569ED1 /* YWTableCellContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWTableCellContentView.h; sourceTree = "<group>"; };
-		36FF8EA4204676A400569ED1 /* YWTableCellContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWTableCellContentView.m; sourceTree = "<group>"; };
-		36FF8EA5204676A400569ED1 /* YWTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWTableHeaderView.h; sourceTree = "<group>"; };
-		36FF8EA6204676A400569ED1 /* YWTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWTableHeaderView.m; sourceTree = "<group>"; };
 		36FF8EAE2046780700569ED1 /* LogisticsQueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogisticsQueryViewController.m; sourceTree = "<group>"; };
 		36FF8EAF2046780700569ED1 /* LogisticsQueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogisticsQueryViewController.h; sourceTree = "<group>"; };
+		77C3555D204829C2006D5D0B /* YWLogisticCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLogisticCellModel.h; sourceTree = "<group>"; };
+		77C3555E204829C2006D5D0B /* YWLogisticModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticModel.m; sourceTree = "<group>"; };
+		77C3555F204829C2006D5D0B /* YWTableCellContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWTableCellContentView.m; sourceTree = "<group>"; };
+		77C35560204829C2006D5D0B /* YWLogisticsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLogisticsView.h; sourceTree = "<group>"; };
+		77C35562204829C2006D5D0B /* icon_placeholder_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_placeholder_image.png; sourceTree = "<group>"; };
+		77C35563204829C2006D5D0B /* YWTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWTableHeaderView.h; sourceTree = "<group>"; };
+		77C35564204829C2006D5D0B /* YWLogisticCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLogisticCell.h; sourceTree = "<group>"; };
+		77C35565204829C2006D5D0B /* YWLogisticCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticCellModel.m; sourceTree = "<group>"; };
+		77C35566204829C2006D5D0B /* YWTableCellContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWTableCellContentView.h; sourceTree = "<group>"; };
+		77C35567204829C2006D5D0B /* YWLogisticModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLogisticModel.h; sourceTree = "<group>"; };
+		77C35568204829C2006D5D0B /* YWTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWTableHeaderView.m; sourceTree = "<group>"; };
+		77C35569204829C2006D5D0B /* YWLogisticsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticsView.m; sourceTree = "<group>"; };
+		77C3556A204829C2006D5D0B /* YWLogisticCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticCell.m; sourceTree = "<group>"; };
+		77C3556B204829C2006D5D0B /* YWConfigFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWConfigFile.h; sourceTree = "<group>"; };
 		814FFF310846E0B1AF73C358 /* Pods-YWLogisticsQueryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWLogisticsQueryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YWLogisticsQueryDemo/Pods-YWLogisticsQueryDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B65C3804CFFAA05930E9990F /* libPods-YWLogisticsQueryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YWLogisticsQueryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -71,7 +71,7 @@
 		36FF8E752046759C00569ED1 = {
 			isa = PBXGroup;
 			children = (
-				36FF8E97204676A400569ED1 /* YWLogisticsQuery */,
+				77C3555C204829C2006D5D0B /* YWLogisticsQuery */,
 				36FF8E802046759C00569ED1 /* YWLogisticsQueryDemo */,
 				36FF8E7F2046759C00569ED1 /* Products */,
 				49A22C2F389AAB6069494B2C /* Pods */,
@@ -105,35 +105,6 @@
 			path = YWLogisticsQueryDemo;
 			sourceTree = "<group>";
 		};
-		36FF8E97204676A400569ED1 /* YWLogisticsQuery */ = {
-			isa = PBXGroup;
-			children = (
-				36FF8E98204676A400569ED1 /* Resources */,
-				36FF8E9A204676A400569ED1 /* YWConfigFile.h */,
-				36FF8E9B204676A400569ED1 /* YWLogisticCell.h */,
-				36FF8E9C204676A400569ED1 /* YWLogisticCell.m */,
-				36FF8E9D204676A400569ED1 /* YWLogisticCellModel.h */,
-				36FF8E9E204676A400569ED1 /* YWLogisticCellModel.m */,
-				36FF8E9F204676A400569ED1 /* YWLogisticModel.h */,
-				36FF8EA0204676A400569ED1 /* YWLogisticModel.m */,
-				36FF8EA1204676A400569ED1 /* YWLogisticsView.h */,
-				36FF8EA2204676A400569ED1 /* YWLogisticsView.m */,
-				36FF8EA3204676A400569ED1 /* YWTableCellContentView.h */,
-				36FF8EA4204676A400569ED1 /* YWTableCellContentView.m */,
-				36FF8EA5204676A400569ED1 /* YWTableHeaderView.h */,
-				36FF8EA6204676A400569ED1 /* YWTableHeaderView.m */,
-			);
-			path = YWLogisticsQuery;
-			sourceTree = "<group>";
-		};
-		36FF8E98204676A400569ED1 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				36FF8E99204676A400569ED1 /* icon_placeholder_image.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		49A22C2F389AAB6069494B2C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +112,35 @@
 				814FFF310846E0B1AF73C358 /* Pods-YWLogisticsQueryDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		77C3555C204829C2006D5D0B /* YWLogisticsQuery */ = {
+			isa = PBXGroup;
+			children = (
+				77C3556B204829C2006D5D0B /* YWConfigFile.h */,
+				77C35567204829C2006D5D0B /* YWLogisticModel.h */,
+				77C3555E204829C2006D5D0B /* YWLogisticModel.m */,
+				77C3555D204829C2006D5D0B /* YWLogisticCellModel.h */,
+				77C35565204829C2006D5D0B /* YWLogisticCellModel.m */,
+				77C35560204829C2006D5D0B /* YWLogisticsView.h */,
+				77C35569204829C2006D5D0B /* YWLogisticsView.m */,
+				77C35563204829C2006D5D0B /* YWTableHeaderView.h */,
+				77C35568204829C2006D5D0B /* YWTableHeaderView.m */,
+				77C35564204829C2006D5D0B /* YWLogisticCell.h */,
+				77C3556A204829C2006D5D0B /* YWLogisticCell.m */,
+				77C35566204829C2006D5D0B /* YWTableCellContentView.h */,
+				77C3555F204829C2006D5D0B /* YWTableCellContentView.m */,
+				77C35561204829C2006D5D0B /* Resources */,
+			);
+			path = YWLogisticsQuery;
+			sourceTree = "<group>";
+		};
+		77C35561204829C2006D5D0B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77C35562204829C2006D5D0B /* icon_placeholder_image.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		8E8DD8E0DA658C61E54D81DC /* Frameworks */ = {
@@ -214,7 +214,7 @@
 			files = (
 				36FF8E8E2046759C00569ED1 /* LaunchScreen.storyboard in Resources */,
 				36FF8E8B2046759C00569ED1 /* Assets.xcassets in Resources */,
-				36FF8EA7204676A400569ED1 /* icon_placeholder_image.png in Resources */,
+				77C3556E204829C2006D5D0B /* icon_placeholder_image.png in Resources */,
 				36FF8E892046759C00569ED1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,16 +277,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36FF8EAB204676A400569ED1 /* YWLogisticsView.m in Sources */,
-				36FF8EAC204676A400569ED1 /* YWTableCellContentView.m in Sources */,
 				36FF8E862046759C00569ED1 /* ViewController.m in Sources */,
-				36FF8EA8204676A400569ED1 /* YWLogisticCell.m in Sources */,
+				77C35572204829C2006D5D0B /* YWLogisticCell.m in Sources */,
+				77C3556F204829C2006D5D0B /* YWLogisticCellModel.m in Sources */,
+				77C35570204829C2006D5D0B /* YWTableHeaderView.m in Sources */,
+				77C3556D204829C2006D5D0B /* YWTableCellContentView.m in Sources */,
 				36FF8E912046759C00569ED1 /* main.m in Sources */,
-				36FF8EAD204676A400569ED1 /* YWTableHeaderView.m in Sources */,
-				36FF8EAA204676A400569ED1 /* YWLogisticModel.m in Sources */,
 				36FF8EB02046780700569ED1 /* LogisticsQueryViewController.m in Sources */,
-				36FF8EA9204676A400569ED1 /* YWLogisticCellModel.m in Sources */,
 				36FF8E832046759C00569ED1 /* AppDelegate.m in Sources */,
+				77C3556C204829C2006D5D0B /* YWLogisticModel.m in Sources */,
+				77C35571204829C2006D5D0B /* YWLogisticsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

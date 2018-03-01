@@ -7,7 +7,6 @@
 //
 
 #import "YWTableHeaderView.h"
-
 #import "YWConfigFile.h"
 
 @interface YWTableHeaderView ()

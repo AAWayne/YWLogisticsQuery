@@ -7,7 +7,6 @@
 //
 
 #import "YWLogisticsView.h"
-#import "YWConfigFile.h"
 #import "YWLogisticCell.h"
 
 @interface YWLogisticsView () <UITableViewDelegate,UITableViewDataSource>

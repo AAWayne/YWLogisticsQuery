@@ -7,7 +7,6 @@
 //
 
 #import "LogisticsQueryViewController.h"
-#import "YWConfigFile.h"
 #import <AFNetworking.h>
 
 @interface LogisticsQueryViewController ()

@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 
 #import "YWTableHeaderView.h"
-#import "YWLogisticModel.h"
 #import "YWLogisticCellModel.h"
+#import "YWLogisticModel.h"
+#import "YWConfigFile.h"
 
 @interface YWLogisticsView : UIView
 

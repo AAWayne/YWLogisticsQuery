@@ -34,7 +34,7 @@
             NSData * imageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageUrl]];
             
             // 缓存图片
-            [imageData writeToFile:[weakSelf imageFilePath:imageUrl] atomically:YES];
+            [imageData writeToFile:[self imageFilePath:imageUrl] atomically:YES];
             
             // 回到主线程完成UI设置，也可以利用blcok,将image对象传到别处去
             dispatch_async(dispatch_get_main_queue(), ^{
@@ -79,7 +79,7 @@
 {
     // 获取caches文件夹路径
     NSString * cachesPath = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject];
-    
+    NSLog(@"cachesPath = %@", cachesPath);
     // 创建CacheImages文件夹
     NSString * CacheImagesPath = [cachesPath stringByAppendingPathComponent:@"CacheImages"];
     NSFileManager * fileManager = [NSFileManager defaultManager];

@@ -1,4 +1,4 @@
-[![Pod](https://img.shields.io/badge/Pod-1.0.4-orange.svg)](https://github.com/90candy/YWLogisticsQuery)
+[![Pod](https://img.shields.io/badge/Pod-1.0.5-orange.svg)](https://github.com/90candy/YWLogisticsQuery)
 [![Platform](https://img.shields.io/badge/Platform-iOS-ff69b4.svg)](https://github.com/90candy)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/90candy)
 [![Author](https://img.shields.io/badge/Author-阿唯不知道-blue.svg)](https://www.jianshu.com/u/0f7d26d766f4)
@@ -6,7 +6,7 @@
 ### 推荐使用`Cocoapod`导入，具体使用请直接查看示例Demo
 
 ```
-pod 'YWLogisticsQuery', '~> 1.0.4'
+pod 'YWLogisticsQuery', '~> 1.0.5'
 ```
 
 ### ************** 效果图展示 **************

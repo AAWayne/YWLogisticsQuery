@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YWLogisticsQuery"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "物流查询：传入物流单号、对应物流公司、以及对应物流公司编码"
   s.description  = <<-DESC
                   物流查询/快递查询：传入快递单号、对应物流公司、以及对应物流公司编码即可

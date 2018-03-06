@@ -23,7 +23,7 @@
     
     // 先判断本地沙盒是否已经存在图像，存在直接获取，不存在再下载，下载后保存
     // 存在沙盒的Caches的子文件夹CacheImages中
-    UIImage * image = [self loadLocalImage:imageUrl];
+    __block UIImage * image = [self loadLocalImage:imageUrl];
     
     if (image == nil) {
         // 沙盒中没有，下载
@@ -35,20 +35,15 @@
             
             // 缓存图片
             [imageData writeToFile:[self imageFilePath:imageUrl] atomically:YES];
-            
-            // 回到主线程完成UI设置，也可以利用blcok,将image对象传到别处去
-            dispatch_async(dispatch_get_main_queue(), ^{
-                
-                UIImage * image = [UIImage imageWithData:imageData];
-                
-                if (weakSelf.imageBlock) {
-                    weakSelf.imageBlock(image);
-                }
-            });
+            image = [UIImage imageWithData:imageData];
+            // 利用blcok,将image对象回调
+            if (weakSelf.imageBlock) {
+                weakSelf.imageBlock(image);
+            }
         });
     } else {
-        if (self.imageBlock) {
-            self.imageBlock(image);
+        if (_imageBlock) {
+            _imageBlock(image);
         }
     }
     

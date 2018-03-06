@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.dependency "Masonry", "~> 1.1.0"
 end
 
- # 验证：pod spec lint YWLogisticsQuery.podspec --verbose
- # 发布：pod trunk push YWLogisticsQuery.podspec  --allow-warnings
+ # 验证：pod spec lint YWLogisticsQuery.podspec --allow-warnings --verbose
+ # 发布：pod trunk push YWLogisticsQuery.podspec  --allow-warnings --verbose

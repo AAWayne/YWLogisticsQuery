@@ -7,7 +7,7 @@
 //
 
 #import "YWImageCache.h"
-
+#import "YWConfigFile.h"
 @implementation YWImageCache
 
 - (void)dealloc {
@@ -18,9 +18,9 @@
 #pragma mark - 异步加载
 - (void)startCacheImage:(NSString *)imageUrl
 {
-    __typeof__(self) __weak weakSelf = self;
+    WeakSelf;
     self.imageUrl = imageUrl;
-
+    
     // 先判断本地沙盒是否已经存在图像，存在直接获取，不存在再下载，下载后保存
     // 存在沙盒的Caches的子文件夹CacheImages中
     UIImage * image = [self loadLocalImage:imageUrl];
@@ -41,14 +41,14 @@
                 
                 UIImage * image = [UIImage imageWithData:imageData];
                 
-                if (_imageBlock) {
-                    _imageBlock(image);
+                if (weakSelf.imageBlock) {
+                    weakSelf.imageBlock(image);
                 }
             });
         });
     } else {
-        if (_imageBlock) {
-            _imageBlock(image);
+        if (self.imageBlock) {
+            self.imageBlock(image);
         }
     }
     
@@ -95,4 +95,5 @@
     return imageFilePath;
 }
 
-@end 
+@end
+

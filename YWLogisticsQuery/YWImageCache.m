@@ -39,7 +39,7 @@
             // 回到主线程完成UI设置，也可以利用blcok,将image对象传到别处去
             dispatch_async(dispatch_get_main_queue(), ^{
                 
-                UIImage *image = [UIImage imageWithData:imageData];
+                UIImage * image = [UIImage imageWithData:imageData];
                 
                 if (_imageBlock) {
                     _imageBlock(image);
@@ -79,8 +79,6 @@
 {
     // 获取caches文件夹路径
     NSString * cachesPath = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject];
-    
-    NSLog(@"CachesPath = %@", cachesPath);
     
     // 创建CacheImages文件夹
     NSString * CacheImagesPath = [cachesPath stringByAppendingPathComponent:@"CacheImages"];

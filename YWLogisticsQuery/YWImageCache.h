@@ -13,8 +13,8 @@ typedef void(^YWImageBlock)(UIImage *image);
 
 @interface YWImageCache : NSObject
 
-@property (nonatomic, copy) NSString * imageUrl;
-@property (nonatomic, copy) YWImageBlock imageBlock;
+@property (nonatomic, copy) NSString        * imageUrl;
+@property (nonatomic, copy) YWImageBlock      imageBlock;
 
 //开始下载图像
 - (void)startCacheImage:(NSString *)imageUrl;

@@ -44,7 +44,7 @@
     model.logisticCompany = @"申通快递";
     model.logisticNumber = @"3345541356152";
     model.goodsPicUrlStr = @"https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3696414240,752471806&fm=58";
-    
+//    model.goodsPicUrlStr = @"http://img.daimg.com/uploads/allimg/171228/3-1G22Q34R8.jpg";
     LogisticsQueryViewController *logisticsQueryVC = [[LogisticsQueryViewController alloc] init];
     logisticsQueryVC.model = model;
     

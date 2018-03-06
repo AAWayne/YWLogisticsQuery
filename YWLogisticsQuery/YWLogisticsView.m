@@ -9,6 +9,8 @@
 #import "YWLogisticsView.h"
 #import "YWLogisticCell.h"
 
+#import "YWImageCache.h"
+
 @interface YWLogisticsView () <UITableViewDelegate,UITableViewDataSource>
 
 @property (strong, nonatomic)NSMutableArray *dataArray;
@@ -61,7 +63,17 @@
     }
     header.number = _logisticModel.logisticNumber;
     header.company = _logisticModel.logisticCompany;
-    [header.goodsPic sd_setImageWithURL:[NSURL URLWithString:_logisticModel.goodsPicUrlStr] placeholderImage:PLACEHOlDER_IMAGE];
+    
+//    [header.goodsPic sd_setImageWithURL:[NSURL URLWithString:_logisticModel.goodsPicUrlStr] placeholderImage:PLACEHOlDER_IMAGE];
+    YWImageCache *imageCache = [[YWImageCache alloc] init];
+    imageCache.imageBlock = ^(UIImage *image) {
+        if (!image) {
+            header.goodsPic.image = PLACEHOlDER_IMAGE;
+        } else {
+            header.goodsPic.image = image;
+        }
+    };
+    [imageCache startCacheImage:_logisticModel.goodsPicUrlStr];
     
     self.table.tableHeaderView = header;
 }

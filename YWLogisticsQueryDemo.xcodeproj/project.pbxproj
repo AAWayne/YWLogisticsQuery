@@ -21,6 +21,8 @@
 		77C35570204829C2006D5D0B /* YWTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C35568204829C2006D5D0B /* YWTableHeaderView.m */; };
 		77C35571204829C2006D5D0B /* YWLogisticsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C35569204829C2006D5D0B /* YWLogisticsView.m */; };
 		77C35572204829C2006D5D0B /* YWLogisticCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C3556A204829C2006D5D0B /* YWLogisticCell.m */; };
+		77FF5A7B204CD28600918389 /* YWImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FF5A7A204CD28600918389 /* YWImageCache.m */; };
+		77FF5A7E204CDBCB00918389 /* ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FF5A7C204CDBCB00918389 /* ZXPUnicode.m */; };
 		C19B07B9EA1900126FA7CF78 /* libPods-YWLogisticsQueryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B65C3804CFFAA05930E9990F /* libPods-YWLogisticsQueryDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,10 @@
 		77C35569204829C2006D5D0B /* YWLogisticsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticsView.m; sourceTree = "<group>"; };
 		77C3556A204829C2006D5D0B /* YWLogisticCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLogisticCell.m; sourceTree = "<group>"; };
 		77C3556B204829C2006D5D0B /* YWConfigFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWConfigFile.h; sourceTree = "<group>"; };
+		77FF5A79204CD28600918389 /* YWImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWImageCache.h; sourceTree = "<group>"; };
+		77FF5A7A204CD28600918389 /* YWImageCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWImageCache.m; sourceTree = "<group>"; };
+		77FF5A7C204CDBCB00918389 /* ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPUnicode.m; sourceTree = "<group>"; };
+		77FF5A7D204CDBCB00918389 /* ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPUnicode.h; sourceTree = "<group>"; };
 		814FFF310846E0B1AF73C358 /* Pods-YWLogisticsQueryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWLogisticsQueryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YWLogisticsQueryDemo/Pods-YWLogisticsQueryDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B65C3804CFFAA05930E9990F /* libPods-YWLogisticsQueryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YWLogisticsQueryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -90,6 +96,8 @@
 		36FF8E802046759C00569ED1 /* YWLogisticsQueryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				77FF5A7D204CDBCB00918389 /* ZXPUnicode.h */,
+				77FF5A7C204CDBCB00918389 /* ZXPUnicode.m */,
 				36FF8E812046759C00569ED1 /* AppDelegate.h */,
 				36FF8E822046759C00569ED1 /* AppDelegate.m */,
 				36FF8E842046759C00569ED1 /* ViewController.h */,
@@ -130,6 +138,8 @@
 				77C3556A204829C2006D5D0B /* YWLogisticCell.m */,
 				77C35566204829C2006D5D0B /* YWTableCellContentView.h */,
 				77C3555F204829C2006D5D0B /* YWTableCellContentView.m */,
+				77FF5A79204CD28600918389 /* YWImageCache.h */,
+				77FF5A7A204CD28600918389 /* YWImageCache.m */,
 				77C35561204829C2006D5D0B /* Resources */,
 			);
 			path = YWLogisticsQuery;
@@ -280,10 +290,12 @@
 				36FF8E862046759C00569ED1 /* ViewController.m in Sources */,
 				77C35572204829C2006D5D0B /* YWLogisticCell.m in Sources */,
 				77C3556F204829C2006D5D0B /* YWLogisticCellModel.m in Sources */,
+				77FF5A7B204CD28600918389 /* YWImageCache.m in Sources */,
 				77C35570204829C2006D5D0B /* YWTableHeaderView.m in Sources */,
 				77C3556D204829C2006D5D0B /* YWTableCellContentView.m in Sources */,
 				36FF8E912046759C00569ED1 /* main.m in Sources */,
 				36FF8EB02046780700569ED1 /* LogisticsQueryViewController.m in Sources */,
+				77FF5A7E204CDBCB00918389 /* ZXPUnicode.m in Sources */,
 				36FF8E832046759C00569ED1 /* AppDelegate.m in Sources */,
 				77C3556C204829C2006D5D0B /* YWLogisticModel.m in Sources */,
 				77C35571204829C2006D5D0B /* YWLogisticsView.m in Sources */,

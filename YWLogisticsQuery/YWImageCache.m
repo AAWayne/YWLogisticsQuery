@@ -18,8 +18,7 @@
 #pragma mark - 异步加载
 - (void)startCacheImage:(NSString *)imageUrl
 {
-    __typeof__(self) __weak wself = self;
-    
+    __typeof__(self) __weak weakSelf = self;
     self.imageUrl = imageUrl;
 
     // 先判断本地沙盒是否已经存在图像，存在直接获取，不存在再下载，下载后保存
@@ -35,7 +34,7 @@
             NSData * imageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageUrl]];
             
             // 缓存图片
-            [imageData writeToFile:[wself imageFilePath:imageUrl] atomically:YES];
+            [imageData writeToFile:[weakSelf imageFilePath:imageUrl] atomically:YES];
             
             // 回到主线程完成UI设置，也可以利用blcok,将image对象传到别处去
             dispatch_async(dispatch_get_main_queue(), ^{
